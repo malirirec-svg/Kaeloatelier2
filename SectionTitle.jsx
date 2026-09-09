@@ -1,0 +1,1 @@
+export default function SectionTitle({eyebrow,title,action}){return <div className="flex items-end justify-between gap-4 mb-7"><div>{eyebrow&&<div className="text-[11px] uppercase tracking-[.22em] text-leaf mb-2">{eyebrow}</div>}<h2 className="serif text-3xl md:text-4xl text-navy">{title}</h2></div>{action}</div>}
