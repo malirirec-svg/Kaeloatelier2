@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin:0; background:#fff; color:#15181D; font-family: var(--font-sans); }
+button, input, select, textarea { font: inherit; }
+button { cursor:pointer; }
+::selection { background:#1A2B4C; color:white; }
+.container-kaelo { width:min(1200px, calc(100% - 32px)); margin-inline:auto; }
+.serif { font-family:var(--font-display); }
+.hide-scrollbar::-webkit-scrollbar { display:none; }
+.hide-scrollbar { scrollbar-width:none; }
